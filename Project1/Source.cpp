@@ -5,6 +5,7 @@ int main() {
 	std::cout << "chose task 1/2: "; std::cin >> chs;
 	switch (chs) {
 	case 1: {
+		//task 1.1
 		float c1, c2, c3, a, x, z;
 		std::cout << "enter x: "; std::cin >> x;
 		std::cout << "enter z: "; std::cin >> z;
@@ -22,6 +23,7 @@ int main() {
 		break;
 	}
 	case 2: {
+		//task 1.2
 		float a, b;
 		float c, S, P;
 		std::cout << "enter side a: "; std::cin >> a;
@@ -34,6 +36,7 @@ int main() {
 		break;
 	}
 	default:
+		//error
 		std::cout << "no no no mr. fish you can`t do this";
 	}
 	return 0;
